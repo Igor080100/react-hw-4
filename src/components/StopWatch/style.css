@@ -1,0 +1,64 @@
+.btn {
+   border-radius: 5px;
+   box-shadow: 0 0px 5px 0px gray;
+   font-size: 1.25rem;
+   width: 100%;
+}
+
+.btn-start {
+   background-color: rgb(255, 204, 108);
+}
+
+.btn-start:hover {
+   background-color: rgb(206, 168, 97);
+}
+
+.btn-reset {
+   background-color: rgb(255, 204, 108);
+}
+
+.btn-reset:hover {
+   background-color: rgb(206, 168, 97);
+}
+
+.btn-lap {
+   background-color: rgb(0, 255, 221);
+}
+
+.btn-lap:hover {
+   background-color: rgb(0, 179, 155);
+}
+
+.btn-lap-dis {
+   background-color: rgb(207, 207, 207);
+   color: gray;
+}
+
+.btn-pause {
+   background-color: rgb(255, 0, 0);
+}
+
+.btn-delete-all {
+   text-transform: uppercase;
+   margin-top: 10px;
+   border: 2px dashed red;
+   font-size: 1.25rem;
+   width: 100%;
+   border-radius: 5px;
+   color: red;
+}
+
+.mini-text {
+   font-size: 25px;
+}
+
+.interface {
+   margin-bottom: 75px;
+   background-color: rgb(255, 255, 255);
+   box-shadow: 0 0px 10px 1px gray;
+   border-radius: 5px;
+}
+
+.interface-text {
+   font-size: 50px;
+}
