@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import './style.css'
 import styles from './StopWatch.module.css'
 
-interface IStopProps {
-  time: Date;
-}
+// interface IStopProps {
+// time: Date;
+// }
 
-interface IStopState {
-  time: Date;
-  idTimeout: any;
-}
+// interface IStopState {
+//   time: Date;
+//   idTimeout: any;
+// }
 
 // export class StopWatch extends Component<IStopProps, IStopState> {
 //   constructor(props: IStopProps) {
@@ -63,7 +63,9 @@ interface IStopState {
 // }
 
 
-interface IStopProps { }
+interface IStopProps {
+  time: Date;
+}
 
 interface IStopState {
   time: Date;
